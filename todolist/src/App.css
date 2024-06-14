@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('./assets/img/Aesthetic.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; 
+  background: linear-gradient(#05999E, #CBE7E3);
+  border-radius: 30px;
+  width: 400px; 
+}
+
+.task {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  padding: 2px 5px;
+  margin-top: 12px;
+  column-gap: 0.5rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center; 
+}
+
+.icon {
+  margin: 10px;
+  size: 10px;
+}
+
+.line_through {
+  text-decoration: line-through;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  box-sizing: border-box; 
+}
+
+.Line {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.todo-list{
+  padding: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.input-type {
+  background-color: azure;
+  border: 2px solid black; 
+  border-radius: 8px; 
+  padding: 10px; 
+  font-size: 16px; 
+  transition: all 0.3s ease-in-out; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.input-type:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1.4); 
+}
+
+.Primary-btn{
+  background: linear-gradient(to right,#05999E,#96e6da); 
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight:bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.Primary-btn:hover{
+  color: white;
+  background:#05999E;
+  transition: .2s ease-in-out;
+}
